@@ -12,6 +12,14 @@
     <p>This tiny static site exists for one reason: to be built and deployed by a
        GitHub Actions workflow, so I can watch a CI/CD pipeline run end-to-end.</p>
     <p id="build-info">Not yet deployed.</p>
+    <section id="pipeline-steps">
+      <h2>What the pipeline does</h2>
+      <ol>
+        <li>Push to <code>main</code> triggers the workflow.</li>
+        <li>GitHub Actions checks out the repo and uploads this folder as a Pages artifact.</li>
+        <li><code>actions/deploy-pages</code> publishes it via OIDC — no stored deploy secret.</li>
+      </ol>
+    </section>
   </main>
 </body>
 </html>

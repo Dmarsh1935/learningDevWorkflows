@@ -22,3 +22,13 @@ h1 {
   padding-top: 1rem;
   margin-top: 2rem;
 }
+
+#pipeline-steps {
+  margin-top: 2rem;
+}
+
+#pipeline-steps code {
+  background: #161b22;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
