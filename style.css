@@ -1,0 +1,24 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+main {
+  max-width: 40rem;
+}
+
+h1 {
+  color: #58a6ff;
+}
+
+#build-info {
+  font-family: monospace;
+  color: #8b949e;
+  border-top: 1px solid #30363d;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
